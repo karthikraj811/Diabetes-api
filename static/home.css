@@ -1,0 +1,147 @@
+.body{
+    background-color: lightseagreen;
+    margin:0;
+}
+
+.heading{
+        text-align: center;
+}
+.form{
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.gender-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+
+.uria-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+
+.dipsia-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px; 
+}
+
+.age-i{
+    margin-left:0px;
+    padding:6px 50px 6px 10px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+
+.weight-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+.weakness-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+
+.phagia-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+
+.genital-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+.visual-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+.itch-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+.irrit-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+.heal-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+.paresis-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+
+}
+.alopecia-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+.stiff-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+.obese-i{
+    margin-left:0px;
+    padding:6px 50px 6px 0px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size:18px;
+}
+
+.btn{
+    padding:6px 40px 6px 40px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size: 20px;
+}
+.result{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+    
+}
+

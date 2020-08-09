@@ -1,0 +1,95 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes!!!!check here</title>
+    <link rel="stylesheet" type="text/css" href="{%static '/home.css'   %}"
+</head>
+<body class='body'>
+    <div class ='heading'>
+       <h2>Check Whether you have diabetes by giving some data</h2>
+    </div>
+    <div class='outside-form'>
+        <form method="POST" action='result'>
+            {%csrf_token %}
+            <div class='form' id='form'>
+                
+                    <label for ='age' class='age'>Age :</label><div class='age-div'><input type="text" name='age' class='age-i'></div><br>
+                
+
+                
+                    <label for ='Gender' class='gender'>Gender :</label><div class = 'gender-div'><input type='text' class='gender-i' name='gender' placeholder="Male or Female"></div><br>
+                
+                
+                
+                    <label for ='Polyuria' class='uria'>Polyuria :</label><div class='uria-div'><input type='text' class='uria-i' name='polyuria' placeholder="Yes or No"></div><br>
+                
+
+                
+                    <label for ='Polydipsia' class='dipsia'>Polydipsia :</label><div class='dipsia-div'><input type='text' class='dipsia-i' name='polydipsia' placeholder="Yes or No"></div><br>
+                
+
+                
+                     <label for ='sudden_weight' class='weight'>sudden weight loss :</label><div class='weight-div'><input type='text' class='weight-i' name='sudden_weight' placeholder="Yes or No"></div><br>
+                
+                
+                
+                    <label for ='weakness' class='weakness'>weakness :</label><div class='weakness-div'><input type='text' class='weakness-i' name ='weakness' placeholder="Yes or No"></div><br>
+                
+                
+                
+                    <label for ='Polyphagia' class='phagia'>Polyphagia :</label><div class='phagia-div'><input type='text' class='phagia-i' name='polyphagia' placeholder="Yes or No"></div><br>
+                
+                
+                
+                 <label for ='Genital thrush' class='genital'>Genital thrush :</label><div class='genital-div'><input type='text'  class='genital-i' name='genital' placeholder="Yes or No"></div><br>
+                
+                
+                
+                 <label for ='visual_blurring' class='visual'> visual :</label><div class='visual-div'><input type='text' class='visual-i' name='visual_blur' placeholder="Yes or No"></div><br>
+                
+
+                
+                <label for ='Itching' class='itch'>Itching :</label><div class='itch-div'><input type='text' class='itch-i' name='itch' placeholder="Yes or No"></div><br>
+                
+
+                
+                <label for ='Irritability' class='irrit'>Irritability :</label><div class='irrit-div'><input type='text' class='irrit-i' name='irrit' placeholder="Yes or No"></div><br>
+                
+
+                
+                    <label for ='delayed healing' class='heal'>delayed healing :</label><div class='heal-div'><input type='text' class='heal-i' name='delayed_heal' placeholder="Yes or No"></div><br>
+                
+
+                
+                <label for ='partial paresis' class='paresis'>partial paresis :</label><div class='paresis-div'><input type='text' class='paresis-i' name='paresis' placeholder="Yes or No"></div><br>
+                
+                
+                
+                <label for ='muscle stiffness' class='stiff'>muscle stiffness :</label><div class='stiff-div'><input type='text' class='stiff-i' name='muscle_stiff' placeholder="Yes or No"></div><br>
+                
+                
+                
+                <label for ='Alopecia' class='alopecia'>Alopecia :</label><div class='alopecia-div'><input type='text' class='alopecia-i' name='alopecia' placeholder="Yes or No"></div><br>
+                
+                
+                
+                <label for ='Obesity' class='obese'>Obesity :</label><div class='obese-div'><input type='text' class='obese-i' name='obesity' placeholder="Yes or No"></div><br>
+                
+                
+                <div class='btn-div'>
+                <button type='submit' class='btn'>CHECK</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <div class=result>
+            {%if result%}
+    result :{{result}}
+    {%endif%}
+    </div>
+</body>
+</html>
